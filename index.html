@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <h2 class="title">income and expense Tracker</h2>
+            <p>your balance</p>
+            <h1 class="balance">#50000</h1>
+            <div class="balance-row">
+                <div class="income">
+                    <h2>income</h2>
+                    <p class="income-value">#55000</p>
+                </div>
+                <div class="expense">
+                    <h2>expense</h2>
+                    <p class="expense-value">#5000</p>
+                </div>
+            </div>
+            <form>
+                <input type="text" placeholder="description" id="description">
+                <input type="number" placeholder="amount" id="amount">
+                <button type="submit" class="submit-btn">add transaction</button>
+            </form>
+        </div>
+        <div class="output">
+            <h3>transaction details</h3>
+            <div class="transaction-details">
+                <p>food</p>
+                <p>-2000</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+An expense tracker
+user-inputs : amount, description.
+process: 1. arrange inputs in a tablular format. 2. calculate total amount of money in the table.
+output: display table containing expenditures and total amount of expenditures 

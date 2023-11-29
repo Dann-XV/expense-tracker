@@ -8,35 +8,37 @@
 </head>
 <body>
     <div class="container">
-        <div class="input">
-            <h2 class="title">income and expense Tracker</h2>
-            <p>your balance</p>
-            <h1 class="balance">$50000</h1>
-            <div class="balance-row">
-                <div class="income">
-                    <h2>income</h2>
-                    <p class="income-value">$55000</p>
-                </div>
-                <div class="expense">
-                    <h2>expense</h2>
-                    <p class="expense-value">$5000</p>
-                </div>
-            </div>
-            <form>
-                <input type="text" placeholder="description" id="description">
-                <input type="number" placeholder="amount" id="amount">
-                <button type="submit" class="submit-btn">add transaction</button>
-            </form>
-        </div>
-        <div class="output">
-            <h3>transaction details</h3>
-            <div class="transaction-details">
-                <p class="trans-desc">food</p>
-                <p class="trans-amt">-$2000</p>
-            </div>
+        <form class="input">
+            <input type="text" placeholder="description">
+            <input type="number" placeholder="amount">
+            <button type="submit">add transaction</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>description</th>
+                    <th>amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>food</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>clothes</td>
+                    <td>300</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
         </div>
     </div>
 
+    <!-- end time : 9:11 -->
     <script src="index.js"></script>
 </body>
 </html>
